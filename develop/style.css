@@ -1,0 +1,20 @@
+* {
+    font-family: monospace;
+}
+
+.navbar-brand {
+    font-size: 70px;
+    padding: 20px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); 
+   
+}
+
+.form-control {
+    font-size: 30px;
+}
+
+.btn {
+    font-size: 30px;
+}
