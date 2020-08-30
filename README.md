@@ -13,6 +13,6 @@ To run this project, enter the name of the city in which you would like to know 
 ![project screenshot](develop/images/screesnhot.png)
 
 ## LINKS
-Deployable link:
+Deployable link: https://maxonemillion.github.io/weather-dashboard/.
 
-Github: 
+Github: https://github.com/maxonemillion/weather-dashboard
