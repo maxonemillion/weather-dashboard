@@ -79,38 +79,38 @@ $(document).ready(function () {
       // HERE, FINISH
 
       var temperature1 = response.list[0].main.temp;
-      $('#temperature1').text(temperature1);
+      $('#temperature1').text((((((temperature1 - 273.15)*1.8) + 32)) + " ° F"));
       var humidity1 = response.list[0].main.humidity;
       $('#humidity1').text(humidity1);
       var wind1 = response.list[0].wind.speed;
       $('#wind1').text(wind1);
 
-      var temperature2 = response.list[6].main.temp;
-      $('#temperature2').text(temperature2);
-      var humidity2 = response.list[6].main.humidity;
+      var temperature2 = response.list[8].main.temp;
+      $('#temperature2').text((((((temperature2 - 273.15)*1.8) + 32)) + " ° F"));
+      var humidity2 = response.list[8].main.humidity;
       $('#humidity2').text(humidity2);
-      var wind2 = response.list[6].wind.speed;
+      var wind2 = response.list[8].wind.speed;
       $('#wind2').text(wind2);
 
-      var temperature3 = response.list[12].main.temp;
-      $('#temperature3').text(temperature3);
-      var humidity3 = response.list[12].main.humidity;
+      var temperature3 = response.list[16].main.temp;
+      $('#temperature3').text((((((temperature3 - 273.15)*1.8) + 32)) + " ° F"));
+      var humidity3 = response.list[16].main.humidity;
       $('#humidity3').text(humidity3);
-      var wind3 = response.list[12].wind.speed;
+      var wind3 = response.list[16].wind.speed;
       $('#wind3').text(wind3);
 
-      var temperature4 = response.list[18].main.temp;
-      $('#temperature4').text(temperature4);
-      var humidity4 = response.list[18].main.humidity;
+      var temperature4 = response.list[24].main.temp;
+      $('#temperature4').text((((((temperature4 - 273.15)*1.8) + 32)) + " ° F"));
+      var humidity4 = response.list[24].main.humidity;
       $('#humidity4').text(humidity4);
-      var wind4 = response.list[18].wind.speed;
+      var wind4 = response.list[24].wind.speed;
       $('#wind4').text(wind4);
 
-      var temperature5 = response.list[24].main.temp;
-      $('#temperature5').text(temperature5);
-      var humidity5 = response.list[24].main.humidity;
+      var temperature5 = response.list[32].main.temp;
+      $('#temperature5').text((((((temperature5 - 273.15)*1.8) + 32)) + " ° F"));
+      var humidity5 = response.list[32].main.humidity;
       $('#humidity5').text(humidity5);
-      var wind5 = response.list[24].wind.speed;
+      var wind5 = response.list[32].wind.speed;
       $('#wind5').text(wind5);
 
     });
