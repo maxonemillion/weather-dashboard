@@ -78,39 +78,39 @@ $(document).ready(function () {
 
       // HERE, FINISH
 
-      var temperature1 = response.zero.main.temp;
+      var temperature1 = response.list[0].main.temp;
       $('#temperature1').text(temperature1);
-      var humidity1 = response.zero.humidity;
+      var humidity1 = response.list[0].main.humidity;
       $('#humidity1').text(humidity1);
-      var wind1 = response.zero.wind;
+      var wind1 = response.list[0].wind.speed;
       $('#wind1').text(wind1);
 
-      var temperature2 = response.six.main.temp;
+      var temperature2 = response.list[6].main.temp;
       $('#temperature2').text(temperature2);
-      var humidity2 = response.six.main.humidity;
+      var humidity2 = response.list[6].main.humidity;
       $('#humidity2').text(humidity2);
-      var wind2 = response.six.wind;
+      var wind2 = response.list[6].wind.speed;
       $('#wind2').text(wind2);
 
-      var temperature3 = response.twelve.main.temp;
+      var temperature3 = response.list[12].main.temp;
       $('#temperature3').text(temperature3);
-      var humidity3 = response.twelve.main.humidity;
+      var humidity3 = response.list[12].main.humidity;
       $('#humidity3').text(humidity3);
-      var wind3 = response.twelve.wind;
+      var wind3 = response.list[12].wind.speed;
       $('#wind3').text(wind3);
 
-      var temperature4 = response.eighteen.temp;
+      var temperature4 = response.list[18].main.temp;
       $('#temperature4').text(temperature4);
-      var humidity4 = response.eighteen.main.humidity;
+      var humidity4 = response.list[18].main.humidity;
       $('#humidity4').text(humidity4);
-      var wind4 = response.eighteen.wind;
+      var wind4 = response.list[18].wind.speed;
       $('#wind4').text(wind4);
 
-      var temperature5 = response.twentyfour.main.temp;
+      var temperature5 = response.list[24].main.temp;
       $('#temperature5').text(temperature5);
-      var humidity5 = response.twentyfour.main.humidity;
+      var humidity5 = response.list[24].main.humidity;
       $('#humidity5').text(humidity5);
-      var wind5 = response.twentyfour.wind;
+      var wind5 = response.list[24].wind.speed;
       $('#wind5').text(wind5);
 
     });
