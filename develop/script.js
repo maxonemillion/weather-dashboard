@@ -6,6 +6,7 @@ const locationResult = $('#location');
 const tempResult = $('#temperature');
 const humidityResult = $('#humidity');
 const windResult = $('#wind');
+const UV = $('#UV');
 
 $('#day1').text(moment().add(1, 'days'));
 $('#day2').text(moment().add(2, 'days'));
