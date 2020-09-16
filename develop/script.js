@@ -53,7 +53,7 @@ $(document).ready(function () {
       
       var lon = (response.coord.lon);
       var lat = (response.coord.lat);
-      var queryURL3 = "http://api.openweathermap.org/data/2.5/uvi?&lat=" + lat + "&lon=" + lon + APIKey;
+      var queryURL3 = "https://api.openweathermap.org/data/2.5/uvi?&lat=" + lat + "&lon=" + lon + APIKey;
 
       $.ajax({
         url: queryURL3,
