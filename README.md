@@ -6,13 +6,16 @@ The application created enables a user to search for a particular city and get i
 ### USES:
 Moment.js, Bootstrap, HTML, CSS, JavaScript and jQuery.
 
-## RUN
+### RUN:
 To run this project, enter the name of the city in which you would like to know the weather.
 
-### SCREENSHOT
+### SCREENSHOT:
 ![project screenshot](develop/images/screenshot.png)
 
-## LINKS
-Deployable link: https://maxonemillion.github.io/weather-dashboard/.
+### INFORMATION:
+[Here](https://maxonemillion.github.io/weather-dashboard) is the link to the deployed app.  [Here](https://github.com/maxonemillion/weather-dashboard "Link to github repository") is the Github repository for this project.
 
-Github: https://github.com/maxonemillion/weather-dashboard
+## CONTACT:
+* max.daniel@utah.edu
+* [LinkedIn](https://www.linkedin.com/in/maximilian-daniel1/ "Link to LinkedIn page")
+* [Github](https://github.com/maxonemillion "Link to Github page")
