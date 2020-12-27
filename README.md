@@ -13,7 +13,7 @@ To run this project, enter the name of the city in which you would like to know 
 ![project screenshot](develop/images/screenshot.png)
 
 ### INFORMATION:
-[Here](https://maxonemillion.github.io/weather-dashboard) is the link to the deployed app.  [Here](https://github.com/maxonemillion/weather-dashboard "Link to github repository") is the Github repository for this project.
+[Here](https://maxonemillion.github.io/weather-dashboard) is the link to the deployed app. 
 
 ## CONTACT:
 * max.daniel@utah.edu
